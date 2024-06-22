@@ -1,0 +1,140 @@
+/* .newHeader {
+  height: 8vh;
+  width: 100vw;
+}
+.footerNew {
+  height: 8vh;
+  width: 100vw;
+}
+.sec1 {
+  height: 22vh;
+  width: 100vw;
+}
+.sec2 {
+  height: 65vh;
+  width: 100vw;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header.hero-section {
+  background: url("hero-bg.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+header .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #68b547;
+}
+
+header .hero-content h1 {
+  font-size: 36px;
+  color: #fff;
+}
+
+header .hero-content p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #fff;
+}
+
+header .features div {
+  background: #68b547;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+header .cta-buttons .btn {
+  background-color: #68b547;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+header .cta-buttons .btn-outline-light {
+  border: 1px solid #fff;
+}
+
+.doctors-secret1 {
+  background-color: #a78888;
+  padding: 60px 20px;
+}
+
+.doctors-secret {
+  background-color: #333;
+  padding: 60px 20px;
+}
+
+.doctors-secret .content h2,
+.doctors-secret .content p {
+  color: #fff;
+}
+
+.doctors-secret .content a.btn {
+  background-color: #68b547;
+  color: #fff;
+}
+
+.clinically {
+  display: flex;
+  flex-direction: row;
+}
+
+.new {
+  display: flex;
+  flex-direction: row;
+}
+
+@keyframes pulseAnimate {
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+.play {
+  margin-top: 40px;
+  height: 70px;
+  width: 70px;
+}
+
+.play2 {
+  height: 70px;
+  width: 70px;
+  mix-blend-mode: multiply;
+  padding-right: 10px;
+  animation: pulseAnimate 2s ease-out infinite;
+  border-radius: 50%;
+}
+
+/* @keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+
+/* @keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
